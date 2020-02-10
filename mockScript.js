@@ -62,7 +62,7 @@ this.componentTrigger = objectData => {
     close.style.cssText = `top: 10px; right: 10px; text-decoration: none; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  cursor:pointer; position: fixed; padding:.7rem 1.4rem;  z-index: 999; display: none; color: #FFF; font-weight: 400;`;
 
     //Create floating button to open
-    let open = document.getElementById('trigerBtn');
+    let open = document.getElementById('triggerBtn');
     open.onclick = containerBuilder;
     open.href = '#baseDiv';
     open.title = tooltip;
